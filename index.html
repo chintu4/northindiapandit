@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Steller landing page.">
     <meta name="author" content="Devcrud">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Steller Landing page | Free Bootstrap 4.1 landing page</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -30,8 +31,10 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
-                    </li>                   
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                                       
+
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
@@ -59,22 +62,24 @@
             <div class="infos">
                 <h6 class="subtitle">hello,I'm</h6>
                 <h6 class="title">Amit Shukla</h6>
-                <p>Pujari(Pandit) From Hyderbad</p>
+                <p>Pujari(North India pandit) <br><p font-size="2"> Hyderbad</p></p>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-primary rounded" disabled>HIRE ME</button>
-                    <button class="btn btn-dark rounded" onclick="tel:7566856035"><a href="tel:7566856035">Call Me</a></button>
+                    <button class="btn btn-dark rounded" onclick="tel:7566856035"><a href="tel:7566856035"><i class="fas fa-phone"></i> Call Me</a></button>
+                    <!-- <button class="btn btn-light btn-primary rounded" onclick="https://wa.me/7566856035"><a href="https://wa.me/7566856035">Whatsapp Me</a></button> -->
+                    <button class="btn btn-success rounded" onclick="window.location.href='https://wa.me/7566856035';" style="color: white;"><i class="fab fa-whatsapp"></i> Whatsapp Me</button>
                 </div>      
 
                 <div class="socials mt-4">
                     <a class="social-item" href="https://www`.facebook.com/amitkumar.shukla.3576"><i class="ti-facebook"></i></a>
-                    <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a> -->
+                    <a class="social-item" href="https://www.instagram.com/amitshukla8639?igsh=YTVtOHllMTN4NTVw"><i class="ti-instagram"></i></a>
                     <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a> -->
                     <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> -->
                 </div>
             </div>              
             <div class="img-holder">
-                <img src="assets/imgs/man.jpg" alt="">
+                <img src="assets/imgs/man.jpg" alt="amit shukla photo" width=20 height=20 class="img-flex img-thumbnail">
             </div>      
         </div>  
 
@@ -88,10 +93,10 @@
                 <h2>456</h2>
                 <p>Project Completed</p>
             </div>
-            <div class="widget-item">
+            <!-- <div class="widget-item">
                 <h2>789</h2>
                 <p>Awards Won</p>
-            </div>
+            </div> -->
         </div>
     </header>
     <!-- End of Page Header -->
@@ -105,14 +110,15 @@
                 </div>
                 <div class="pl-md-4 col-md-9">
                     <h6 class="title">Amit Shukla</h6>
-                    <p class="subtitle">Pujari (North India pandit)</p>
+                    <p class="subtitle">Pujari (North India pandit) </p>
                     <p>Experienced Hindu priest offering traditional Vedic ceremonies and spiritual guidance.</p>
                     <p>Dedicated to preserving ancient rituals and fostering spiritual well-being through personalized ceremonies.</p>
-                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
+                    <!-- <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                    -->
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Service section -->
     <!-- <section id="service" class="section">
@@ -201,97 +207,114 @@
         <div class="container text-center">
             <h6 class="subtitle">Portfolio</h6>
             <h6 class="section-title mb-4">Services</h6>
-            <p class="mb-5 pb-4">Services offered are </p>
-
+            <p class="mb-5 pb-4">Services offered are</p>
+    
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets\imgs\ganesh-pooja.png" alt="">
-                        
-                        
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
+                        <img src="assets/imgs/ganesh-pooja.png" alt="Ganesh pooja" class="img-fluid equal-height-img">
+                        <label>Ganeshji ki pooja (गणेशजी की पूजा)</label>
                     </div>
-                    <div class="img-wrapper">
-                        <img src="assets\imgs\Shri-Satyanarayan-Katha-Hindi-2016-500x500.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Shri-Satyanarayan Katha</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets\imgs\marrages.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>marrages</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
+                        <img src="assets/imgs/Shri-Satyanarayan-Katha-Hindi-2016-500x500.jpg" alt="Shri-Satyanarayan Katha" class="img-fluid equal-height-img">
+                        <label>Sri Shri-Satyanarayan Katha (श्री श्री-सत्यनारायण कथा)</label>
                     </div>
-                    <div class="img-wrapper">
-                        <img src="assets\imgs\navaratri-pooja.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>navaratri pooja</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets\imgs\house-ceremony.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>house ceremony</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
+                        <img src="assets/imgs/marrages.png" alt="Marrages" class="img-fluid equal-height-img">
+                        <label>Marrages (शादियाँ)</label>
                     </div>
+                </div>
+                <div class="col-sm-4 mb-4">
                     <div class="img-wrapper">
-                        <img src="assets\imgs\ganesh-pooja.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>ganesh pooja</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
+                        <img src="assets/imgs/navaratri-pooja.png" alt="Navaratri" class="img-fluid equal-height-img">
+                        <label>Navaratri pooja (नवरात्रि पूजा)</label>
                     </div>
-                    <!-- <div class="img-wrapper">
-                        <img src="assets\imgs\ganesh-pooja.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5></h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                   -->
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/gal1.jpg" alt="Grah Shanti puja" class="img-fluid equal-height-img">
+                        <label>Grah Shanti puja</label>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/house-ceremony.png" alt="Gruh pravesh puja" class="img-fluid equal-height-img">
+                        <label>Gruh pravesh puja</label>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- End of portfolio section -->
-
-    <!-- Testmonial Section -->
+    
+    <style>
+        .equal-height-img {
+            width: 100%;
+            height: 250px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+    
+        .img-wrapper {
+            position: relative;
+        }
+    
+        .img-wrapper label {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+    </style>    <!-- End of portfolio section -->
+    <section>
+        <div>
+        <h2 class="text-center" id="gallery">Gallery</h2>
+    </div>
+        <div class="row">
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal1.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal2.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal3.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal4.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal5.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal6.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal7.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+            <div class="col-sm-4 mb-4">
+                <img src="assets/imgs/gal8.jpg" alt="" class="img-fluid img-thumbnail equal-height-img">
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .equal-height-img {
+            width: 100%; /* Make images take full width of their container */
+            height: 250px; /* Set a fixed height, adjust as needed */
+            object-fit: cover; /* Crop or scale images to fit */
+        }
+    </style>  <!-- Testmonial Section -->
     <section id="testmonial" class="section">
         <div class="container text-center">
-            <h6 class="subtitle">Testmonial</h6>
+            <h4 class="subtitle">Testmonial</h4>
       <!--      <h6 class="section-title mb-4">What People Say About Me</h6>
             <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
  -->
@@ -424,7 +447,7 @@
             <h6 class="section-title mb-4">Get In Touch With Me</h6>
             <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-            <div class="contact text-left">
+            <!-- <div class="contact text-left">
                 <div class="form">
                     <h6 class="subtitle">Available 24/7</h6>
                     <h6 class="section-title mb-4">Get In Touch</h6>
@@ -469,7 +492,7 @@
         <div id="map">
             <iframe src="https://snazzymaps.com/embed/61257"></iframe>
         </div>      
-    </section>
+    </section> -->
     <!-- End of Contact Section -->
 
     <!-- Page Footer -->
@@ -477,14 +500,14 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy;<b> Amit Shukla</b></p>
                 </div>
                 <div class="col-sm-6">
                     <div class="socials">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                        <a class="social-item" href="https://www`.facebook.com/amitkumar.shukla.3576"><i class="ti-facebook"></i></a>
+                        <a class="social-item" href="https://www.instagram.com/amitshukla8639?igsh=YTVtOHllMTN4NTVw"><i class="ti-instagram"></i></a>
+                        <a class="social-item" href="tel:7566856035"><i class="fas fa-phone"></i></a>
+                        <a class="social-item" href="https://wa.me/7566856035"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
