@@ -30,3 +30,22 @@ $(document).ready(function(){
       	} 
     });
 });
+
+// Dynamic Text Rotation for Contact Buttons
+$(document).ready(function(){
+    var translations = [
+        { call: "Call Me", wa: "Whatsapp Me" },
+        { call: "कॉल करें", wa: "व्हाट्सएप करें" },
+        { call: "కాల్ చేయండి", wa: "వాట్సాప్ చేయండి" }
+    ];
+
+    var currentIndex = 0;
+
+    setInterval(function() {
+        currentIndex = (currentIndex + 1) % translations.length;
+        var t = translations[currentIndex];
+
+        $("#call-btn-text").text(t.call);
+        $("#wa-btn-text").text(t.wa);
+    }, 3000);
+});
