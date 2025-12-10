@@ -11474,7 +11474,7 @@ pre {
 }
 
 .header .container .infos {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .header .container .infos .subtitle {
@@ -11545,7 +11545,7 @@ pre {
             flex-direction: column;
   }
   .header .container .infos {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
   }
   .header .container .img-holder {
