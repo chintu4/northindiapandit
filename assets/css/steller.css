@@ -11323,7 +11323,9 @@ pre {
     border-right: 0;
   }
   .contact .contact-infos {
-    display: none;
+    margin-left: 0;
+    min-width: auto;
+    width: 100%;
   }
 }
 
