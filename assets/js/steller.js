@@ -40,12 +40,30 @@ $(document).ready(function(){
     ];
 
     var currentIndex = 0;
+    var $callText = $("#call-btn-text");
+    var $waText = $("#wa-btn-text");
+
+    // Add transition class initially
+    $callText.addClass("text-transition");
+    $waText.addClass("text-transition");
 
     setInterval(function() {
-        currentIndex = (currentIndex + 1) % translations.length;
-        var t = translations[currentIndex];
+        // Fade out
+        $callText.addClass("text-hidden");
+        $waText.addClass("text-hidden");
 
-        $("#call-btn-text").text(t.call);
-        $("#wa-btn-text").text(t.wa);
+        // Wait for fade out to complete (500ms matches CSS)
+        setTimeout(function() {
+            currentIndex = (currentIndex + 1) % translations.length;
+            var t = translations[currentIndex];
+
+            $callText.text(t.call);
+            $waText.text(t.wa);
+
+            // Fade in
+            $callText.removeClass("text-hidden");
+            $waText.removeClass("text-hidden");
+        }, 500);
+
     }, 3000);
 });
