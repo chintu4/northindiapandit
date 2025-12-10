@@ -11697,3 +11697,13 @@ pre {
         font-size: 18px;
     }
 }
+
+/* Dynamic Text Transition */
+.text-transition {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.text-hidden {
+    opacity: 0;
+}
